@@ -1,0 +1,27 @@
+// Breakpoints
+$breakpoint-767: 767px;
+$breakpoint-768: 768px;
+$breakpoint-1024: 1024px;
+$breakpoint-1200: 1200px;
+$breakpoint-1400: 1400px;
+
+
+
+// Media queries
+@media (max-width: $breakpoint-767){
+    .column-type-1{
+        width: 100%;
+    }
+}
+
+@media (min-width: $breakpoint-768){
+    .column-type-1{
+        width: 100%;
+    }
+}
+
+@media (min-width: $breakpoint-1024){
+    .column-type-1{
+        width: 20%;
+    }
+}

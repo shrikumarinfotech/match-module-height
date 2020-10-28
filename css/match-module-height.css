@@ -1,0 +1,76 @@
+/*
+// Plugin Name: Match Module Height
+// Description: Match height of selected DOM element/s
+// Version: 1.0.0
+// Author: Shrikumar Infotech
+// Author Email: dev@shrikumarinfotech.com
+// Date: 28 October 2020
+// Update Date: 28 October 2020
+// Credits: https://github.com/debrajrakshit/jquery-sort-ascending-descending
+// License: https://opensource.org/licenses/MIT
+// Copyright 2020, https://github.com/shrikumarinfotech/match-module-height
+// Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+// The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+html {
+  font-size: 67.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.module-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.module-row-nonflex {
+  display: table-cell;
+  position: relative;
+  width: 100%;
+  vertical-align: top;
+}
+
+.column-type-1 {
+  position: relative;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  color: #ffffff;
+  background-color: #0e63ef;
+}
+
+@media (max-width: 767px) {
+  .column-type-1 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .column-type-1 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .column-type-1 {
+    width: 20%;
+  }
+}
+/*# sourceMappingURL=match-module-height.css.map */
