@@ -81,7 +81,7 @@
     }
 
     // Match Module Height Function
-    $.fn.matchModuleHeight = function(){
+    $.fn.matchModuleHeight = function(selector){
         // copy the elements with provided selector
         var objects = this;
 
@@ -109,5 +109,15 @@
             // return the updated objects
             return objects;
         });
+
+        // If selector object is provided
+        if(selector){
+            // Get the height of first element
+            var heightToApply = $(selector).first().height();
+            // Apply height to each element
+            this.each(function(index, element){
+                $(element).height(heightToApply);
+            })
+        }
     }
  }( jQuery ));

@@ -19,5 +19,8 @@
  jQuery.noConflict();
  jQuery(document).ready(function( $ ){
     // Apply Match Module Height to column-type-1
-    $('.column-type-1').matchModuleHeight();
+    $('.module-1 .column-type-1').matchModuleHeight();
+
+    // Apply Match Module Height by target
+    $('.module-2 .column-type-1').matchModuleHeight('.target-div');
  });
